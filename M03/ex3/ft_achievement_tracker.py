@@ -26,7 +26,7 @@ print(f"\nAll distinct achievements: {all_achievements}")
 print(f"Common achievements: {common}")
 
 for name, achievements in players.items():
-    others = set()
+    others = set() 
     for other_name, other_ach in players.items():
         if other_name != name:
             others |= other_ach
